@@ -1,5 +1,12 @@
+import { Card } from "../components/Card";
+
 export const Home = () => {
   return (
-	<div className="text-amber-50">Hola mi locaso</div>
-  )
-}
+    <section className="mt-4 mx-20 rounded-md">
+      <div className="m">
+        <Card />
+        <Card />
+      </div>
+    </section>
+  );
+};
