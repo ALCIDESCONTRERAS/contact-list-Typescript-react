@@ -4,10 +4,10 @@ import { Outlet } from "react-router";
 
 function App() {
   return (
-    <section>
+    <>
       <Navbar />
       <Outlet />
-    </section>
+    </>
   );
 }
 

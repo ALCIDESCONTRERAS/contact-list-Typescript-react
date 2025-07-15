@@ -1,2 +1,5 @@
 @import "tailwindcss";
 
+.input {
+	@apply mb-2 block w-68 bg-amber-100 p-2 rounded-md
+}
